@@ -12,10 +12,10 @@ class Anagram
     array.each do |word|
       if word.length == @anagram.length && 
         word.chars.sort == @anagram.chars.sort 
-        @@all_anagrams << word
+        anagram_array << word
       end 
     end 
-    return @@all_anagrams
+    return anagram_array
   end 
   
 end 
