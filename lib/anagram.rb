@@ -8,8 +8,7 @@ class Anagram
   end 
   
   def match(array)
-    print array
-    puts ''
+    array.keep_if { |word| word.length == @anagram.length }
   end 
   
 end 
