@@ -10,9 +10,10 @@ class Anagram
   end 
   
   def match(array)
-    array.keep_if { |word| word.length == @anagram.length }
-    print array
-    puts ''
+    array.each do |word|
+    end 
+    
+
   end 
   
 end 
