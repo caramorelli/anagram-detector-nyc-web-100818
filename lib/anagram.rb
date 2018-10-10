@@ -8,7 +8,7 @@ class Anagram
   end 
   
   def match(array)
-    puts array
+    print array
   end 
   
 end 
