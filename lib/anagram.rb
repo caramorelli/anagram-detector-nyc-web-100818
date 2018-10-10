@@ -3,7 +3,7 @@
 class Anagram 
   attr_accessor :word
   
-  @@all_anagram
+  @@all_anagrams = []
   
   def initialize(anagram)
     @anagram = anagram
@@ -11,7 +11,7 @@ class Anagram
   
   def match(array)
     array.keep_if { |word| word.length == @anagram.length }
-    
+    print array
   end 
   
 end 
