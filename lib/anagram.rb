@@ -15,7 +15,6 @@ class Anagram
         word.sort == @anagram.sort 
         @@all_anagrams << word
       end 
-      
     end 
   end 
   
