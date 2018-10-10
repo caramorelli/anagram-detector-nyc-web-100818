@@ -3,6 +3,8 @@
 class Anagram 
   attr_accessor :word
   
+  @@all_anagram
+  
   def initialize(anagram)
     @anagram = anagram
   end 
