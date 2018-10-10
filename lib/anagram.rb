@@ -9,6 +9,7 @@ class Anagram
   
   def match(array)
     print array
+    puts ''
   end 
   
 end 
