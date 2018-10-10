@@ -12,7 +12,7 @@ class Anagram
   def match(array)
     array.each do |word|
       if word.length == @anagram.length && 
-        word.chars.sort == @anagram.sort 
+        word.sort == @anagram.sort 
         @@all_anagrams << word
       end 
     end 
