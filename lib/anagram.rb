@@ -11,7 +11,10 @@ class Anagram
   
   def match(array)
     array.each do |word|
-      if word.length == @anagram.length
+      if word.length == @anagram.length && 
+        word.sort == @anagram.sort 
+        @@all_anagrams << word
+      end 
       
     end 
   end 
