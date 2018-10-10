@@ -16,6 +16,7 @@ class Anagram
         @@all_anagrams << word
       end 
     end 
+    return @@all_anagrams
   end 
   
 end 
